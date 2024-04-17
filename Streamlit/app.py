@@ -17,6 +17,8 @@ pollutant = st.sidebar.selectbox(
 )
 
 st.markdown("""
+    ## ABOUT ECOHEALTH
+    
     This webpage is built by team EcoHealth.
     This page serves as a comprehensive resource for exploring the profound impact of pollution on global health.
     Through detailed visualizations, information, and curated content, visitors will gain an in-depth understanding of how various pollutants adversely affect the environment and
@@ -25,8 +27,7 @@ st.markdown("""
     environmental preservation and the urgent need for sustainable practices to safeguard our planet and our well-being.
     
     ### Want to learn more?
-    Check out  [World Health Organizaation](https://www.who.int)
-
+    Check out [World Health Organization](https://www.who.int)
 """)
 
 # Function call to create tabs
