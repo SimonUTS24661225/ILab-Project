@@ -3,7 +3,7 @@ from tab import create_tabs
 import base64
 
 
-background_image_url = 'https://example.com/background_image.jpg'
+background_image_url = 'https://images.unsplash.com/photo-1542281286-9e0a16bb7366'
 
 # Set page config and initial sidebar state
 st.set_page_config(
