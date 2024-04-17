@@ -4,23 +4,28 @@ import pandas as pd
 def create_tabs():
     empty_df = pd.DataFrame()
 
-    tab1, tab2, tab3, tab4 = st.tabs(["Visualisation", "Information", "Contents", "Dataset"])
+    # Buttons to select different sections
+    button_visualization = st.button("Visualization")
+    button_information = st.button("Information")
+    button_contents = st.button("Contents")
+    button_dataset = st.button("Dataset")
 
-    with tab1:
+    # Display content based on button clicks
+    if button_visualization:
         st.header("Visualisation Tab")
         st.write("Visualisation content goes here.")
 
-    with tab2:
+    if button_information:
         st.header("Information Tab")
         st.subheader("Table 1")
         st.table(empty_df)
         st.subheader("Table 2")
         st.table(empty_df)
 
-    with tab3:
+    if button_contents:
         st.header("Contents Tab")
         st.write("Content details go here.")
 
-    with tab4:
+    if button_dataset:
         st.header("Dataset Tab")
         st.write("Dataset details go here.")
