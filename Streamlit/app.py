@@ -62,5 +62,4 @@ selected_tab = st.selectbox(
 
 # Call the function to create tabs
 create_tabs(selected_tab)
-set_bg_hack_url()
 
