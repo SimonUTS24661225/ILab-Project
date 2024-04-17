@@ -2,6 +2,18 @@ import streamlit as st
 import base64
 from tab import create_tabs
 
+background_style = """
+    <style>
+        body {
+            background-image: url('https://example.com/background-image.jpg');
+            background-size: cover;
+        }
+    </style>
+"""
+# Display the background image using markdown
+st.markdown(background_style, unsafe_allow_html=True)
+
+
 st.set_page_config(
     page_title="ECOHEALTH WEBPAGE",
     page_icon="👋",
