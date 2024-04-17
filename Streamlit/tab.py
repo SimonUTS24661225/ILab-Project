@@ -27,7 +27,7 @@ def create_tabs():
         st.write("Content details go here.")
 
     if button_dataset:
-        df = pd.read_csv("air-pollution.csv")
+        df = pd.read_csv("Streamlit/air-pollution.csv")
         st.header("Dataset Summary")
         st.write("Summary statistics of the dataset:")
         st.write(df.describe())
