@@ -60,9 +60,7 @@ selected_tab = st.selectbox(
     ("Visualisation", "Information", "Dataset", "References")
 )
 
-set_bg_hack_url()
-
 # Call the function to create tabs
 create_tabs(selected_tab)
-
+set_bg_hack_url()
 
