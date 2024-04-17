@@ -3,34 +3,7 @@ from tab import create_tabs
 import base64
 
 
-def get_base64_of_bin_file(bin_file):
-    with open(bin_file, 'rb') as f:
-        data = f.read()
-    return base64.b64encode(data).decode()
-
-background_image_url = 'https://images.unsplash.com/photo-1542281286-9e0a16bb7366'
-
-# Encode the background image to base64
-background_image = get_base64_of_bin_file(background_image_url)
-
-# Custom CSS for styling with background image
-custom_css = f"""
-    <style>
-        .reportview-container {{
-            background: url('data:image/png;base64,{background_image}');
-            background-size: cover;
-        }}
-        .sidebar .sidebar-content {{
-            background-color: rgba(255, 255, 255, 0.9); /* Adjust background opacity */
-        }}
-        .stButton>button {{
-            background-color: #ffcc00 !important;
-        }}
-    </style>
-"""
-
-# Write the custom CSS
-st.markdown(custom_css, unsafe_allow_html=True)
+background_image_url = 'https://example.com/background_image.jpg'
 
 # Set page config and initial sidebar state
 st.set_page_config(
@@ -40,16 +13,38 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+# Custom CSS for styling
+custom_css = f"""
+<style>
+body {{
+    background-image: url("{background_image_url}");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #333;
+}}
+.sidebar .sidebar-content {{
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust background opacity */
+}}
+.stButton>button {{
+    background-color: #ffcc00 !important;
+}}
+</style>
+"""
+
 # Write the title and introduction
 st.write("# Welcome to WebPage of EcoHealth! ")
 
 # Sidebar content
+st.sidebar.markdown(custom_css, unsafe_allow_html=True)
 st.sidebar.success("Select a Pollutant Below.")
 pollutant = st.sidebar.selectbox(
     "Choose a pollutant:",
     ("Methane", "Ammonia")
 )
 
+st.sidebar.markdown(custom_css, unsafe_allow_html=True)
 st.sidebar.success("Select a cause of air pollution.")
 pollutant = st.sidebar.selectbox(
     "Choose a cause:",
