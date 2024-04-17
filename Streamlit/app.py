@@ -2,17 +2,17 @@ import streamlit as st
 import base64
 from tab import create_tabs
 
-background_style = """
+st.markdown(
+    """
     <style>
         body {
-            background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+            background-image: url('https://images.unsplash.com/photo-1542281286-9e0a16bb7366');
             background-size: cover;
         }
     </style>
-"""
-
-# Display the background image using markdown
-st.markdown(background_style, unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
 
 
 st.set_page_config(
