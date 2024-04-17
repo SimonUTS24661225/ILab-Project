@@ -27,8 +27,10 @@ def create_tabs():
         st.write("Content details go here.")
 
     if button_dataset:
-        st.header("Dataset")
-        st.write("Dataset details go here.")
+        df = pd.read_csv("air-pollution.csv")
+        st.header("Dataset Summary")
+        st.write("Summary statistics of the dataset:")
+        st.write(df.describe())
 
     # Button to open new web space
     st.markdown("[Open New Web Space](https://www.example.com)")
