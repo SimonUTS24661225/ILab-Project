@@ -1,11 +1,8 @@
 import streamlit as st
-from tab import create_tabs
 import base64
+from tab import create_tabs
 
 
-background_image_url = 'https://images.unsplash.com/photo-1542281286-9e0a16bb7366'
-
-# Set page config and initial sidebar state
 st.set_page_config(
     page_title="ECOHEALTH WEBPAGE",
     page_icon="👋",
@@ -13,30 +10,23 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for styling
-custom_css = f"""
+custom_css = """
 <style>
-body {{
-    background-image: url("{background_image_url}");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+body {
+    background-color: #ffff99;
     color: #333;
-}}
-.sidebar .sidebar-content {{
-    background-color: rgba(255, 255, 255, 0.9); /* Adjust background opacity */
-}}
-.stButton>button {{
+}
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+}
+.stButton>button {
     background-color: #ffcc00 !important;
-}}
+}
 </style>
 """
 
-# Write the title and introduction
 st.write("# Welcome to WebPage of EcoHealth! ")
 
-# Sidebar content
 st.sidebar.markdown(custom_css, unsafe_allow_html=True)
 st.sidebar.success("Select a Pollutant Below.")
 pollutant = st.sidebar.selectbox(
@@ -51,7 +41,6 @@ pollutant = st.sidebar.selectbox(
     ("Enteric fermentation", "Manure Management", "Agrifood systems waste disposal")
 )
 
-# Introduction
 st.markdown("""
     This webpage is built by team EcoHealth.
     This page serves as a comprehensive resource for exploring the profound impact of pollution on global health.
