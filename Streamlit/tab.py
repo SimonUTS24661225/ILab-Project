@@ -5,7 +5,7 @@ def create_tabs(selected_tab):
     if selected_tab == "Dataset":
         st.markdown("### Download Dataset")
         # First file
-        file_path_1 = "C:/Hweb/Methane.xlsx"
+        file_path_1 = "Streamlit/Methane.xlsx"
         with open(file_path_1, "rb") as f1:
             data1 = f1.read()
         st.markdown(
@@ -25,7 +25,7 @@ def create_tabs(selected_tab):
             st.markdown(href1, unsafe_allow_html=True)
         
         # Second file
-        file_path_2 = "C:/Hweb/Mortality rate.xlsx"
+        file_path_2 = "Streamlit/Mortality rate.xlsx"
         with open(file_path_2, "rb") as f2:
             data2 = f2.read()
         st.markdown(
@@ -75,8 +75,8 @@ def create_tabs(selected_tab):
         """)
 
         st.write("#### Countries of Highest Methane Emission")
-        st.image("C:\Hweb\Emission vs Country.png", caption="Top 10 countries with the highest methane emissions from 1990 to 2021.")
-        st.image("C:\Hweb\Causes of methane emission in China.png", caption="Top 5 contributors to methane emissions in China from 1990 to 2021", width=400)
+        st.image("Streamlit/Emission vs Country.png", caption="Top 10 countries with the highest methane emissions from 1990 to 2021.")
+        st.image("Streamlit/Causes of methane emission in China.png", caption="Top 5 contributors to methane emissions in China from 1990 to 2021", width=400)
 
     elif selected_tab == "References":
         st.write("#### References:")
