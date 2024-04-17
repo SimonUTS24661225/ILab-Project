@@ -21,7 +21,7 @@ def set_png_as_page_bg(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
     return
 
-set_png_as_page_bg('background.png')
+set_png_as_page_bg("Streamlit/test.png")
 
 st.set_page_config(
     page_title="ECOHEALTH WEBPAGE",
