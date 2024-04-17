@@ -4,7 +4,7 @@ import pandas as pd
 def create_tabs():
     empty_df = pd.DataFrame()
 
-    # Buttons to select different sections
+    # Buttons for selecting different sections
     button_visualization = st.button("Visualization")
     button_information = st.button("Information")
     button_contents = st.button("Contents")
@@ -29,3 +29,6 @@ def create_tabs():
     if button_dataset:
         st.header("Dataset Tab")
         st.write("Dataset details go here.")
+
+    # Button to open new web space
+    st.markdown("[Open New Web Space](https://www.example.com)")
