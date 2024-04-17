@@ -5,7 +5,7 @@ from tab import create_tabs
 background_style = """
     <style>
         body {
-            background-image: url('https://example.com/background-image.jpg');
+            background-image: url('https://images.unsplash.com/photo-1542281286-9e0a16bb7366');
             background-size: cover;
         }
     </style>
