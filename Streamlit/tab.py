@@ -45,7 +45,7 @@ def create_tabs(selected_tab):
             st.markdown(href2, unsafe_allow_html=True)
         
     elif selected_tab == "Information":
-        st.write("#### Impact of Methane on Climate Change ")
+        st.write("#### Impact of Methane on Human Health ")
         st.write("""
             Methane (CH4) is a key component of natural gas and a potent greenhouse gas (GHG). It traps heat in the atmosphere, acting like a blanket around the Earth. This natural process, known as the greenhouse effect, is essential for keeping our planet warm enough for life. However, human activities have led to an increase in greenhouse gas emissions, intensifying this effect and contributing to global warming.
         """)
