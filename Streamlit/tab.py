@@ -47,31 +47,31 @@ def create_tabs(selected_tab):
     elif selected_tab == "Information":
         st.write("#### Impact of Methane on Human Health ")
         st.write("""
-            Methane (CH4) is a key component of natural gas and a potent greenhouse gas (GHG). It traps heat in the atmosphere, acting like a blanket around the Earth. This natural process, known as the greenhouse effect, is essential for keeping our planet warm enough for life. However, human activities have led to an increase in greenhouse gas emissions, intensifying this effect and contributing to global warming.
-        """)
-        st.write("#### Causes of methane emission")
+             Methane is a colorless, odorless gas that is the primary component of natural gas. While it is not considered toxic, methane can affect human health indirectly and through various mechanisms.
+        st.write("#### Major Sources of Methane Emissions")
         st.write("""
-            - Enteric fermentation
-            - Agrifood systems waste disposal
-            - On-farm energy use
-            - Burning: Crop Residues
-            - Food Processing and food packaging
-            - Energy
-            - Waste
-            - Rice cultivation
-            - Manure Management
-            - IPPU (Industrial processes and product use)
-            - Food household consumption
-            - Forest fires and Savanna fires
-            - Food transport and food Retail
-            - Pesticides manufacturing
-            - Fires in humid tropical forests
-            - Fires in organic soils
+            - Fossil fuel production
+    Methane emissions from fossil fuel production account for 33% of total methane emissions.
+            - Livestock farming
+    Methane emissions from livestock farming account for 27% of total methane emissions.
+            - Landfills and wastes
+    Methane emissions from landfills and waste management account for 16% of total methane emissions.
         """)
-        
-        st.write("#### The Severity of Methane: Its Impact on Climate Change")
+        st.write("#### How Methane (CH4) generates from livestock and impacted on health")
         st.write("""
-            "Methane: A Potent Greenhouse Gas Amplifying Climate Change Methane, over 28 times more effective than carbon dioxide at trapping heat, has witnessed a staggering increase in atmospheric concentrations, doubling in the past two centuries primarily due to human activities."
+            Methane is produced during the digestion process in cattle and other livestock. As the animals break down and ferment their food, methane is released as a byproduct. This methane production is a significant contributor to overall methane emissions globally.
+         In addition to livestock, methane is also generated through various industrial processes. Leaks, venting, and other activities in the oil and gas industry, as well as waste management and agriculture, can all lead to the release of methane into the atmosphere.
+        """)                                                         
+        st.write("#### Health Impact due to Methane emission")
+        st.write("""
+            List of common diseases occur due to methane emission from all the sources
+            - Cardiovascular, respiratory, and neurological problems
+            - Mood changes
+            - slurred speech
+            - vision problem
+            - memory loss
+            - nausea, vomiting
+            - facial flushing and headache.
         """)
 
         st.write("#### Countries of Highest Methane Emission")
