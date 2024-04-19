@@ -5,7 +5,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-def set_bg_hack_url(brightness=1.0, opacity=1.0, blur=0):
+def set_bg_hack_url(brightness=0.7, opacity=0.8, blur=5):
     '''
     A function for the background.
     '''
@@ -43,7 +43,6 @@ def set_bg_hack_url(brightness=1.0, opacity=1.0, blur=0):
          unsafe_allow_html=True
      )
 
-
     
 st.set_page_config(
     page_title="ECOHEALTH WEBPAGE",
@@ -52,7 +51,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-set_bg_hack_url()
+set_bg_hack_url(brightness=0.7, opacity=0.8, blur=5)
 
 custom_css = """
 <style>
