@@ -48,14 +48,12 @@ def create_tabs(selected_tab):
         st.write("#### Impact of Methane on Human Health ")
         st.write("""
              Methane is a colorless, odorless gas that is the primary component of natural gas. While it is not considered toxic, methane can affect human health indirectly and through various mechanisms.
+        """)
         st.write("#### Major Sources of Methane Emissions")
         st.write("""
             - Fossil fuel production
-    Methane emissions from fossil fuel production account for 33% of total methane emissions.
             - Livestock farming
-    Methane emissions from livestock farming account for 27% of total methane emissions.
             - Landfills and wastes
-    Methane emissions from landfills and waste management account for 16% of total methane emissions.
         """)
         st.write("#### How Methane (CH4) generates from livestock and impacted on health")
         st.write("""
@@ -76,15 +74,12 @@ def create_tabs(selected_tab):
 
         st.write("#### Countries of Highest Methane Emission")
         st.image("Streamlit/Emission vs Country.png", caption="Top 10 countries with the highest methane emissions from 1990 to 2021.")
-        st.image("Streamlit/Causes of methane emission in China.png", caption="Top 5 contributors to methane emissions in China from 1990 to 2021", width=400)
+        st.image("Streamlit/Causes of methane emission in China.png", caption="Top 5 contributors to methane emissions in China from 1990 to 2021")
 
     elif selected_tab == "References":
         st.write("#### References:")
         st.write("""
-            1. Methane Gas : Emission Analysis. (n.d.). Kaggle.com. https://www.kaggle.com/code/zsinghrahulk/methane-gas-emission-analysis/input?select=FAOSTAT_data_en_11-14-2023.csv
-
-‌
-            2. Bridger photonics. (n.d.). How Does Methane Affect the Environment? | Bridger Photonics. Www.bridgerphotonics.com.  https://www.bridgerphotonics.com/blog/how-does-methane-affect-environment#:~:text=Methane%20also%20contributes%20to%20the
-                 
+            1. [Methane Gas: Emission Analysis](https://www.kaggle.com/code/zsinghrahulk/methane-gas-emission-analysis/input?select=FAOSTAT_data_en_11-14-2023.csv)
+            2. [How Does Methane Affect the Environment?](https://www.bridgerphotonics.com/blog/how-does-methane-affect-environment#:~:text=Methane%20also%20contributes%20to%20the)
         """)
 
