@@ -9,11 +9,6 @@ def set_bg_hack_url():
     '''
     A function for the background.
     '''
-        
-    def set_bg_hack_url():
-    '''
-    A function for the background.
-    '''
     # Load the image from URL
     image_url = "https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     response = requests.get(image_url)
@@ -27,6 +22,7 @@ def set_bg_hack_url():
     # Convert the image to data URL
     buffered = BytesIO()
     image.save(buffered, format="JPEG")
+    buffered.seek(0)  # Set the file pointer to the beginning of the buffer
     img_str = base64.b64encode(buffered.getvalue()).decode()
     img_css = f'data:image/jpeg;base64,{img_str}'
     
