@@ -1,17 +1,41 @@
 import streamlit as st
 import base64
 from tab import create_tabs
+from PIL import Image
+import requests
+from io import BytesIO
 
 def set_bg_hack_url():
     '''
     A function for the background.
     '''
         
+    def set_bg_hack_url():
+    '''
+    A function for the background.
+    '''
+    # Load the image from URL
+    image_url = "https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    response = requests.get(image_url)
+    image = Image.open(BytesIO(response.content))
+    
+    # Resize the image to lower resolution
+    new_width = 500  # Adjust as needed
+    new_height = 300  # Adjust as needed
+    image = image.resize((new_width, new_height))
+    
+    # Convert the image to data URL
+    buffered = BytesIO()
+    image.save(buffered, format="JPEG")
+    img_str = base64.b64encode(buffered.getvalue()).decode()
+    img_css = f'data:image/jpeg;base64,{img_str}'
+    
+    # Set the background image
     st.markdown(
          f"""
          <style>
          .stApp {{
-             background: url("https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+             background: url("{img_css}");
              background-size: cover
          }}
          </style>
