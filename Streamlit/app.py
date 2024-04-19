@@ -5,7 +5,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-def set_bg_hack_url():
+def set_bg_hack_url(brightness=1.0, opacity=1.0, blur=0):
     '''
     A function for the background.
     '''
@@ -42,6 +42,7 @@ def set_bg_hack_url():
          """,
          unsafe_allow_html=True
      )
+
 
     
 st.set_page_config(
