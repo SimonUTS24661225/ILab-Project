@@ -52,7 +52,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-set_bg_hack_url(brightness=0.7)
+set_bg_hack_url()
 
 custom_css = """
 <style>
