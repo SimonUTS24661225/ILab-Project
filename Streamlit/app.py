@@ -79,10 +79,8 @@ Major air pollutants include carbon monoxide, methane, ammonia and ozone.
    * Hareesh
    * Tarun
    * Somayeh
+, unsafe_allow_html=True)
 
-### 🔎 Overview""", unsafe_allow_html=True)
-
-st.image("https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
 
 
 st.markdown("""
