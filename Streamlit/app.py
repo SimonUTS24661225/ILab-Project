@@ -52,7 +52,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-set_bg_hack_url()
+# set_bg_hack_url()
 
 show_pages(
     [   
@@ -61,12 +61,20 @@ show_pages(
         # # Methane
         Section("Methane Emission", "🧙‍♂️"),
         Page("Streamlit/Methane/information.py", "Methane Overview", "📚", in_section=True),
-        Page("Streamlit/Methane/information.py", "Module 1 Introduction & Prerequisites", "1️⃣", in_section=True),
+        Page("Streamlit/Methane/Causes of Methane.py", "Causes of Methane", "1️⃣", in_section=True),
+        Page("Streamlit/Methane/impacts on human.py", "Impact of Methane on Human Health", "1️⃣", in_section=True),
+        Page("Streamlit/Methane/Fossil-fuel-production.py", "Fossile Fuel Production", "1️⃣", in_section=True),
+        Page("Streamlit/Methane/Livestock-farming.py", "Livestock Farming", "1️⃣", in_section=True),
+        Page("Streamlit/Methane/Landfills-and-wastes.py", "Landfills and Wastes", "1️⃣", in_section=True),
+        
        
 
         # Ammonia
         Section("Ammonia Emission", "👨‍🔧"),
-        Page("Streamlit/Ammonia/information.py", "Ammonia Overview", "📚", in_section=True),
+        Page("Streamlit/Ammonia/information.py", "Ammonia Overview", "📚", in_section=True)
+
+
+
         
         # Dataset
         Page("Streamlit/Datasets.py", "Datasets", icon="💾", in_section=False),
