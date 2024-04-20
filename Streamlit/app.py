@@ -65,12 +65,28 @@ st.write("# Welcome to WebPage of EcoHealth! ")
 
 st.video("https://www.youtube.com/watch?v=GVBeY1jSG9Y")
 
+st.markdown("""
+### How Air Pollution Impacts Your Body
+    Air pollution refers to the presence of harmful or excessive quantities of substances in the air, which can have adverse effects on human health, ecosystems, and the environment. 
+    These substances, known as pollutants, can include gases, particulate matter, and biological molecules. 
+    Sources of air pollution vary and can include emissions from vehicles, industrial processes, agriculture, and natural sources like wildfires and volcanic eruptions. 
+    Major air pollutants include carbon monoxide, methane, ammonia and ozone.
 
+
+### Contributors
+   * Asmita Kamble
+   * Simon
+   * Hareesh
+   * Tarun
+   * Somayeh
+
+### 🔎 Overview""", unsafe_allow_html=True)
 
 st.image("https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
 
 
 st.markdown("""
+    ### About the Webpage
     This webpage is built by team EcoHealth.
     This page serves as a comprehensive resource for exploring the profound impact of pollution on global health.
     Through detailed visualizations, information, and curated content, visitors will gain an in-depth understanding of how various pollutants adversely affect the environment and
