@@ -6,7 +6,7 @@ import requests
 from io import BytesIO
 
 
-set_bg_hack_url()
+
     
 st.set_page_config(
     page_title="ECOHEALTH WEBPAGE",
@@ -15,6 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+set_bg_hack_url()
 
 
 custom_css = """
