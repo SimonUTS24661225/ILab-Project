@@ -66,7 +66,7 @@ show_pages(
 
         # Ammonia
         Section("Ammonia Emission", "👨‍🔧"),
-        Page("Streamlit/Methane/information.py", "Ammonia Overview", "📚", in_section=True),
+        Page("Streamlit/Ammonia/information.py", "Ammonia Overview", "📚", in_section=True),
         
         # Dataset
         Page("Streamlit/Datasets.py", "Datasets", icon="💾", in_section=False),
