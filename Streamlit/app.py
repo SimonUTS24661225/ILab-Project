@@ -10,7 +10,7 @@ def set_bg_hack_url(brightness=1.0, opacity=1.0, blur=0):
     A function for the background.
     '''
     # Load the image from URL
-    image_url = "https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    image_url = "https://i.ibb.co/FBxW78X/pexels-photo-221012.jpg"
     response = requests.get(image_url)
     image = Image.open(BytesIO(response.content))
     
