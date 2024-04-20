@@ -13,22 +13,23 @@ add_page_title()
 
 show_pages(
     [   
-        Page("Streamlit/app.py", "EcoHealth", "💌"),
+        Page("Streamlit/app.py", "EcoHealth", "💓"),
 
         # # Methane
-        Section("Methane Emission", "🧙‍♂️"),
+        Section("Methane Emission", "1️⃣"),
         Page("Streamlit/Methane/information.py", "Methane Overview", "📚", in_section=True),
-        Page("Streamlit/Methane/Causes of Methane.py", "Causes of Methane", "1️⃣", in_section=True),
-        Page("Streamlit/Methane/impacts on human.py", "Impact of Methane on Human Health", "1️⃣", in_section=True),
-        Page("Streamlit/Methane/Fossil-fuel-production.py", "Fossile Fuel Production", "1️⃣", in_section=True),
-        Page("Streamlit/Methane/Livestock-farming.py", "Livestock Farming", "1️⃣", in_section=True),
-        Page("Streamlit/Methane/Landfills-and-wastes.py", "Landfills and Wastes", "1️⃣", in_section=True),
+        Page("Streamlit/Methane/Causes of Methane.py", "Causes of Methane", "💨", in_section=True),
+        Page("Streamlit/Methane/impacts on human.py", "Impact of Methane on Human Health", "💨", in_section=True),
+        Page("Streamlit/Methane/Fossil-fuel-production.py", "Fossile Fuel Production", "💨", in_section=True),
+        Page("Streamlit/Methane/Livestock-farming.py", "Livestock Farming", "💨", in_section=True),
+        Page("Streamlit/Methane/Landfills-and-wastes.py", "Landfills and Wastes", "💨", in_section=True),
         
        
 
         # Ammonia
-        Section("Ammonia Emission", "👨‍🔧"),
+        Section("Ammonia Emission", "2️⃣"),
         Page("Streamlit/Ammonia/information.py", "Ammonia Overview", "📚", in_section=True),
+        Page("Streamlit/Ammonia/Causes of Ammonia.py", "Causes of Ammonia", "🌿", in_section=True),
 
 
         # Dataset
