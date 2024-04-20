@@ -67,10 +67,10 @@ st.video("https://www.youtube.com/watch?v=GVBeY1jSG9Y")
 
 st.markdown("""
 ### How Air Pollution Impacts Your Body
-    Air pollution refers to the presence of harmful or excessive quantities of substances in the air, which can have adverse effects on human health, ecosystems, and the environment. 
-    These substances, known as pollutants, can include gases, particulate matter, and biological molecules. 
-    Sources of air pollution vary and can include emissions from vehicles, industrial processes, agriculture, and natural sources like wildfires and volcanic eruptions. 
-    Major air pollutants include carbon monoxide, methane, ammonia and ozone.
+Air pollution refers to the presence of harmful or excessive quantities of substances in the air, which can have adverse effects on human health, ecosystems, and the environment. 
+These substances, known as pollutants, can include gases, particulate matter, and biological molecules. 
+Sources of air pollution vary and can include emissions from vehicles, industrial processes, agriculture, and natural sources like wildfires and volcanic eruptions. 
+Major air pollutants include carbon monoxide, methane, ammonia and ozone.
 
 
 ### Contributors
