@@ -106,19 +106,6 @@ body {
 
 st.write("# Welcome to WebPage of EcoHealth! ")
 
-#st.sidebar.markdown(custom_css, unsafe_allow_html=True)
-#st.sidebar.success("Select a Pollutant Below.")
-#pollutant = st.sidebar.selectbox(
-    #"Choose a pollutant:",
-    #("Methane", "Ammonia")
-#)
-
-#st.sidebar.markdown(custom_css, unsafe_allow_html=True)
-#st.sidebar.success("Select a cause of air pollution.")
-#pollutant = st.sidebar.selectbox(
-    #"Choose a cause:",
-    #("Enteric fermentation", "Manure Management", "Agrifood systems waste disposal")
-#)
 
 st.markdown("""
     This webpage is built by team EcoHealth.
@@ -132,12 +119,13 @@ st.markdown("""
     Check out [World Health Organization](https://www.who.int)
 """)
 
-# Select the tab
-# selected_tab = st.selectbox(
-    #"Select a tab:",
-    #("Visualisation", "Information", "Dataset", "References")
-#)
 
-# Call the function to create tabs
-#create_tabs(selected_tab)
 
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style>
+"""
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
