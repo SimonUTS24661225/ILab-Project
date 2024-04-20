@@ -9,12 +9,7 @@ from st_pages import Page, Section, show_pages, add_page_title, hide_pages
 
 
     
-st.set_page_config(
-    page_title="ECOHEALTH WEBPAGE",
-    page_icon="👋",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+add_page_title()
 
 
 show_pages(
@@ -37,8 +32,6 @@ show_pages(
         Page("Streamlit/Ammonia/information.py", "Ammonia Overview", "📚", in_section=True),
 
 
-
-        
         # Dataset
         Page("Streamlit/Datasets.py", "Datasets", icon="💾", in_section=False),
         # Reference
