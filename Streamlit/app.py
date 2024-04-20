@@ -20,10 +20,10 @@ show_pages(
         Page("Streamlit/Methane/information.py", "Methane Overview", "📚", in_section=True),
         Page("Streamlit/Methane/Causes of Methane.py", "Causes of Methane", "💨", in_section=True),
         Page("Streamlit/Methane/impacts on human.py", "Impact of Methane on Human Health", "💨", in_section=True),
-        Page("Streamlit/Methane/Visualization.py", "Visualizations of Methan Emission", "💨", in_section=True),
         Page("Streamlit/Methane/Fossil-fuel-production.py", "Fossile Fuel Production", "💨", in_section=True),
         Page("Streamlit/Methane/Livestock-farming.py", "Livestock Farming", "💨", in_section=True),
         Page("Streamlit/Methane/Landfills-and-wastes.py", "Landfills and Wastes", "💨", in_section=True),
+        Page("Streamlit/Methane/Visualization.py", "Visualizations of Methan Emission", "💨", in_section=True),
         
        
 
