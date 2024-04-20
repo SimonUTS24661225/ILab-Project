@@ -71,7 +71,7 @@ show_pages(
 
         # Ammonia
         Section("Ammonia Emission", "👨‍🔧"),
-        Page("Streamlit/Ammonia/information.py", "Ammonia Overview", "📚", in_section=True)
+        Page("Streamlit/Ammonia/information.py", "Ammonia Overview", "📚", in_section=True),
 
 
 
