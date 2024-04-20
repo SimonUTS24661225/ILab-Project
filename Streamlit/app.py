@@ -72,13 +72,6 @@ These substances, known as pollutants, can include gases, particulate matter, an
 Sources of air pollution vary and can include emissions from vehicles, industrial processes, agriculture, and natural sources like wildfires and volcanic eruptions. 
 Major air pollutants include carbon monoxide, methane, ammonia and ozone.
 
-
-### Contributors
-   * Asmita Kamble
-   * Simon
-   * Hareesh
-   * Tarun
-   * Somayeh
 """, unsafe_allow_html=True)
 
 
@@ -94,6 +87,12 @@ st.markdown("""
     
     ### Want to learn more?
     Check out [World Health Organization](https://www.who.int)
+    ### Contributors
+    * Asmita Kamble
+    * Simon
+    * Hareesh
+    * Tarun
+    * Somayeh
 """)
 
 
