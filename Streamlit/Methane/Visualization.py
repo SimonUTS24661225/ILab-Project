@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import streamlit as st
 
 # Load the data from the Excel file
 df = pd.read_csv('Streamlit/Methane/IHME-GBD_2019_DATA-571d49cc-1_combined.csv')
@@ -25,7 +26,5 @@ plt.legend(title='Cause Name', bbox_to_anchor=(1.04,0.5), loc="center left")
 # Showing a grid for better readability
 plt.grid(True)
 
-
-
-# Showing the plot
-plt.show()
+# Display the plot in Streamlit
+st.pyplot()
