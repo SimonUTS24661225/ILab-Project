@@ -39,3 +39,8 @@ The data suggests that while there have been substantial gains in managing chron
 
 The visualization highlights the need for an increased focus on cardiovascular health in future healthcare strategies and policies.
 """)
+
+
+
+looker_url = "https://lookerstudio.google.com/embed/u/0/reporting/5a025395-e733-4370-8a0a-925c58a51539/page/JbRxD"
+st.components.v1.iframe(looker_url, height=600)
