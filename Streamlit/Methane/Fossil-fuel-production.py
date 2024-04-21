@@ -1,3 +1,5 @@
+import streamlit as st
+
 def fossil_fuel_production_info():
     st.write("### Fossil Fuel Production")
     st.write("""
