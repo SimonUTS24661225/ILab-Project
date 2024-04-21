@@ -83,6 +83,15 @@ def create_tabs(selected_tab):
         st.write("""
             1. [Methane Gas: Emission Analysis](https://www.kaggle.com/code/zsinghrahulk/methane-gas-emission-analysis/input?select=FAOSTAT_data_en_11-14-2023.csv)
             2. [How Does Methane Affect the Environment?](https://www.bridgerphotonics.com/blog/how-does-methane-affect-environment#:~:text=Methane%20also%20contributes%20to%20the)
+            3. [Methane Gas : Emission Analysis. (n.d.). Kaggle.com. Retrieved March 21, 2024, from](https://www.kaggle.com/code/zsinghrahulk/methane-gas-emission-analysis/input?select=FAOSTAT_data_en_11-14-2023.csv)
+            4. https://ourworldindata.org/air-pollution
+            5. https://vizhub.healthdata.org/gbd-results/
+            6. [Main sources of methane emissions. (2017, July 8). What’s Your Impact.](https://whatsyourimpact.org/greenhouse-gases/methane-emissions)
+            7. [Reducing the Carbon Footprint of Cattle Operations through Diet. (2019, August 13). UNL Water.](https://water.unl.edu/article/manure-nutrient-management/reducing-carbon-footprint-cattle-operations-through-diet)
+            8. [Methane’s links to respiratory diseases strengthens the case for its rapid reduction. (n.d.-c). Climate & Clean Air Coalition.](https://www.ccacoalition.org/news/methanes-links-respiratory-diseases-strengthens-case-its-rapid-reduction#:~:text=Reducing%20methane%20emissions%20by%2040,of%20elderly%20people%20each%20year)
+            9. [US EPA. (2016, January 11). Importance of Methane. US EPA.](https://www.epa.gov/gmi/importance-methane#:~:text=Methane%20is%20the%20second%20most)
+            
+
         """)
         
         
