@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import streamlit as st
+import pandas as pd
+import numpy as np
 
 # Load the data from the Excel file
 df = pd.read_csv('Streamlit/Methane/IHME-GBD_2019_DATA-571d49cc-1_combined.csv')
