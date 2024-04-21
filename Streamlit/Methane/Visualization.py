@@ -28,4 +28,4 @@ plt.legend(title='Cause Name', bbox_to_anchor=(1.04,0.5), loc="center left")
 plt.grid(True)
 
 # Display the plot in Streamlit
-st.pyplot()
+plt.show()
