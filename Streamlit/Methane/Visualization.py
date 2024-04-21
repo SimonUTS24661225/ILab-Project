@@ -1,9 +1,8 @@
 import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
-import numpy as np
 
-# Load the data from the Excel file
+# Load the data from the CSV file
 df = pd.read_csv('Streamlit/Methane/IHME-GBD_2019_DATA-571d49cc-1_combined.csv')
 
 # Ensure that only rows with 'Number' in the 'metric_name' column are considered
@@ -13,19 +12,19 @@ df_number = df[df['metric_name'] == 'Number']
 pivot_table = df_number.pivot_table(values='val', index='year', columns='cause_name', aggfunc='sum')
 
 # Plotting the pivot table; each cause will automatically get a different line color
-plt.figure(figsize=(12, 6))
-pivot_table.plot(kind='line', marker='o')
+fig, ax = plt.subplots(figsize=(12, 6))
+pivot_table.plot(kind='line', marker='o', ax=ax)
 
 # Adding title and labels
-plt.title('Death Rate by Cause Over Years')
-plt.xlabel('Year')
-plt.ylabel('Death Rate ')
+ax.set_title('Death Rate by Cause Over Years')
+ax.set_xlabel('Year')
+ax.set_ylabel('Death Rate')
 
 # If you have a large number of causes and the legend is overwhelming, you can move it outside the plot
-plt.legend(title='Cause Name', bbox_to_anchor=(1.04,0.5), loc="center left")
+ax.legend(title='Cause Name', bbox_to_anchor=(1.04, 0.5), loc="center left")
 
 # Showing a grid for better readability
-plt.grid(True)
+ax.grid(True)
 
 # Display the plot in Streamlit
-st.pyplot()
+st.pyplot(fig)
