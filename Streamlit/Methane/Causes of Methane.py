@@ -15,3 +15,4 @@ def show_causes_of_methane():
         - **Industrial Processes:** Various industrial activities, including chemical manufacturing, oil refining, and wastewater treatment, contribute to methane emissions through leaks, fugitive emissions, and chemical reactions.
     """)
 
+show_causes_of_methane()
