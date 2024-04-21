@@ -28,3 +28,14 @@ ax.grid(True)
 
 # Display the plot in Streamlit
 st.pyplot(fig)
+
+
+st.write("""
+The chart presents the trend of death rates from 1990 to just before 2019 due to air pollution, focusing on three specific causes of death: cardiovascular diseases, chronic respiratory diseases, and neurological disorders.
+
+From the visualization, it is apparent that the death rate from cardiovascular diseases has shown a significant upward trend, indicating an increasing number of deaths over the years. This contrasts with chronic respiratory diseases and neurological disorders, both of which have remained relatively stable throughout the same period.
+
+The data suggests that while there have been substantial gains in managing chronic respiratory and neurological health issues, or at least keeping their death rates constant, cardiovascular diseases continue to be a growing challenge.
+
+The visualization highlights the need for an increased focus on cardiovascular health in future healthcare strategies and policies.
+""")
