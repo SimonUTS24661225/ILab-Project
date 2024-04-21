@@ -43,7 +43,7 @@ def create_tabs(selected_tab):
             b64_data2 = base64.b64encode(data2).decode()
             href2 = f'<a href="data:application/octet-stream;base64,{b64_data2}" download="Mortality rate.xlsx">Download Mortality Rate Dataset</a>'
             st.markdown(href2, unsafe_allow_html=True)
-            pass
+
         
     elif selected_tab == "Information":
         st.write("#### Impact of Methane on Human Health ")
@@ -76,7 +76,7 @@ def create_tabs(selected_tab):
         st.write("#### Countries of Highest Methane Emission")
         st.image("Streamlit/Emission vs Country.png", caption="Top 10 countries with the highest methane emissions from 1990 to 2021.")
         st.image("Streamlit/Causes of methane emission in China.png", caption="Top 5 contributors to methane emissions in China from 1990 to 2021")
-        pass
+        
 
     elif selected_tab == "References":
         st.write("#### References:")
@@ -84,16 +84,7 @@ def create_tabs(selected_tab):
             1. [Methane Gas: Emission Analysis](https://www.kaggle.com/code/zsinghrahulk/methane-gas-emission-analysis/input?select=FAOSTAT_data_en_11-14-2023.csv)
             2. [How Does Methane Affect the Environment?](https://www.bridgerphotonics.com/blog/how-does-methane-affect-environment#:~:text=Methane%20also%20contributes%20to%20the)
         """)
-        pass
         
-    elif selected_tab == "Visualizations of Methane Emission":
-        st.write("#### Visualizations of Methane Emission")
-        st.write("""
-            Here you can explore visualizations of methane emission data.
-        """)
-        # Add your Looker dashboard URL here
-        st.markdown("### Looker Dashboard")
-        st.markdown("[Click here to view the Looker Dashboard](https://lookerstudio.google.com/embed/reporting/5a025395-e733-4370-8a0a-925c58a51539/page/JbRxD)")
-
+        
 
 
