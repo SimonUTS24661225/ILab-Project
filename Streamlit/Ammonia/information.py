@@ -34,3 +34,6 @@ Exposure to high levels of ammonia can lead to various health problems, includin
 
 Long-term exposure to ammonia may increase the risk of chronic respiratory conditions and exacerbate pre-existing respiratory diseases, such as asthma and chronic obstructive pulmonary disease (COPD). Additionally, ammonia emissions can contribute to air pollution and environmental degradation, affecting both human health and ecosystems.
 """)
+
+image_url = "https://www.openaccessgovernment.org/wp-content/uploads/2018/07/dreamstime_s_114372506.jpg"
+st.image(image_url, caption="Image Caption")
