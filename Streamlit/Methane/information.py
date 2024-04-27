@@ -8,9 +8,9 @@ st.write("""
 
 st.write("#### Major Sources of Methane Emissions")
 st.write("""
-    - Fossil fuel production
-    - Livestock farming
-    - Landfills and wastes
+    - Fossil fuel production (33%)
+    - Livestock farming (27%)
+    - Landfills and wastes (16%)
 """)
 
 st.write("#### How Methane (CH4) generates from livestock and impacted on health")
