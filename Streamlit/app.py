@@ -102,6 +102,7 @@ st.markdown("""
     * Somayeh
 """)
 
+### ⭐ Star the project on Github  <iframe src="https://github.com/SimonUTS24661225/ILab-Project"  width="150" height="20" title="GitHub"></iframe>
 
 
 hide_streamlit_style = """
