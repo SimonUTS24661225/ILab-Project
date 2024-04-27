@@ -32,6 +32,9 @@ show_pages(
         Page("Streamlit/Ammonia/information.py", "Ammonia Overview", "📚", in_section=True),
         Page("Streamlit/Ammonia/Causes of Ammonia.py", "Causes of Ammonia", "🌿", in_section=True),
         Page("Streamlit/Ammonia/impacts on human.py", "Impact of Ammonia on Human Health", "🌿", in_section=True),
+        Page("Streamlit/Ammonia/Agriculture.py", "Agriculture", "🌿", in_section=True),
+        Page("Streamlit/Ammonia/Ocean.py", "Ocean", "🌿", in_section=True),
+        Page("Streamlit/Ammonia/Industrial.py", "Industrial Process", "🌿", in_section=True),
         Page("Streamlit/Ammonia/visualization.py", "Visualizations of Ammonia Emission", "🌿", in_section=True),
         
 
