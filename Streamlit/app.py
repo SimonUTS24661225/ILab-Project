@@ -102,7 +102,7 @@ st.markdown("""
     * Somayeh
 """)
 
-### ⭐ Star the project on Github  <iframe src="https://github.com/SimonUTS24661225/ILab-Project"  width="150" height="20" title="GitHub"></iframe>
+### ⭐ st.markdown('<iframe src="https://github.com/SimonUTS24661225/ILab-Project" width="150" height="20" title="GitHub"></iframe>', unsafe_allow_html=True)
 
 
 hide_streamlit_style = """
