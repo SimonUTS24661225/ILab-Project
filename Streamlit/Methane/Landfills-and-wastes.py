@@ -21,3 +21,7 @@ def landfill_waste_info():
     """)
 
 landfill_waste_info()
+
+st.image("Streamlit/Methane/download (1).jpeg", caption="Image of Landfill-Waste")
+st.image("Streamlit/Methane/14-Landfill-Methane-Emissions-by-World-Region-1970-2017.png", caption="1970-2017 Landfill Methane Emissions by World Region")
+st.image("Streamlit/Methane/Greenhouse_gas_emissions_of_waste_management,_EU-28,_1990-2017(million_tonnes_of_CO2_equivalent).png", caption="1990-2017 Greenhouse_gas_emissions_of_waste_management")
