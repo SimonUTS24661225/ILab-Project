@@ -96,7 +96,7 @@ st.markdown("""
     Check out [World Health Organization](https://www.who.int)
    
 
-### ⭐ Star the project on Github  <iframe src="https://github.com/SimonUTS24661225/ILab-Project"  width="150" height="20" title="GitHub"></iframe>
+### ⭐ Star the project on Github [here](https://github.com/SimonUTS24661225/ILab-Project)
 """)
 
 hide_streamlit_style = """
