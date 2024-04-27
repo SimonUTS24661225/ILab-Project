@@ -23,3 +23,6 @@ def animal_waste_management_info():
     """)
 
 animal_waste_management_info()
+
+st.image("Streamlit/Methane/Enteric_fermentation_process_in_cows.png", caption="Image of Fermentation Process in Cows")
+st.image("Streamlit/Methane/image.png", caption="Piechart of Methane Emission from Livestock")
