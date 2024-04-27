@@ -27,7 +27,7 @@ st.write("""
 2. **Consumer Goods:** Certain consumer goods, such as building materials and textiles, may contain ammonia-based compounds that can emit ammonia over time.
 """)
 
-st.subheader("Natural Processes:")
+st.subheader("Natural Processes in Oceans:")
 
 st.write("""
 1. **Soil and Water:** Natural processes in soil and water, such as microbial decomposition and nitrification, can lead to the release of ammonia into the atmosphere.
