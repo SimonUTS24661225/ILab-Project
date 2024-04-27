@@ -94,15 +94,10 @@ st.markdown("""
     
     ### ❔ Want to learn more?
     Check out [World Health Organization](https://www.who.int)
-    ### 👨‍🏫 Contributors
-    * Asmita Kamble
-    * Simon
-    * Hareesh
-    * Tarun
-    * Somayeh
-""")
+   
 
-### ⭐ Star the project on Github  <iframe src="https://ghbtns.com/github-btn.html?user=hamagistral&repo=de-zoomcamp-ui&type=star&count=true"  width="150" height="20" title="GitHub"></iframe>
+### ⭐ Star the project on Github  <iframe src="https://github.com/SimonUTS24661225/ILab-Project"  width="150" height="20" title="GitHub"></iframe>
+""")
 
 hide_streamlit_style = """
 <style>
