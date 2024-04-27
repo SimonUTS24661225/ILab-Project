@@ -37,3 +37,5 @@ Long-term exposure to ammonia may increase the risk of chronic respiratory condi
 
 image_url = "https://www.openaccessgovernment.org/wp-content/uploads/2018/07/dreamstime_s_114372506.jpg"
 st.image(image_url, caption="Image Caption")
+st.image("Streamlit/Ammonia/Country-breakdown-of-global-ammonia-production-2021-Source-6.png", caption="2021 Country Breakdown of Global Ammonia Production")
+
