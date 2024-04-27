@@ -19,3 +19,6 @@ def fossil_fuel_production_info():
 # Example usage
 fossil_fuel_production_info()
 
+
+st.image("Streamlit/Methane/download.jpeg", caption="Image of Fossil-fuel-production")
+st.image("Streamlit/Methane/fossil-fuel-production.png", caption="World Fossil Fuel Production Over Years")
