@@ -11,9 +11,10 @@ Ammonia is a colorless gas with a pungent odor and is commonly used in agricultu
 # Major Sources of Ammonia Emissions
 st.write("#### Major Sources of Ammonia Emissions")
 st.write("""
-- Agricultural activities, including livestock farming and fertilizer application
-- Industrial processes, such as chemical manufacturing and wastewater treatment
-- Household cleaning products and certain consumer goods
+- Agricultural activities, including livestock farming and fertilizer application (70%)
+- Natural Processing in Ocean (15%)
+- Wildfires (10%)
+- Industrial processes, such as chemical manufacturing and wastewater treatment (1-2%)
 """)
 
 # How Ammonia Generates and Impacts Health
@@ -26,11 +27,13 @@ Ammonia is released into the atmosphere from agricultural activities, particular
 st.write("#### Health Impact due to Ammonia Emission")
 st.write("""
 Exposure to high levels of ammonia can lead to various health problems, including:
-- Respiratory issues, such as coughing, wheezing, and shortness of breath
-- Eye irritation and damage, including blurred vision and corneal burns
-- Skin irritation and burns upon contact
-- Gastrointestinal discomfort, such as nausea, vomiting, and abdominal pain
-- Neurological symptoms, including headaches, dizziness, and confusion
+- Liver disease
+- Hepatic Encephalopathy
+- Reye's syndrome
+- Decreased blood flow to liver
+- Coma, mood swings and excessive sleepiness
+- Kidney failure
+
 
 Long-term exposure to ammonia may increase the risk of chronic respiratory conditions and exacerbate pre-existing respiratory diseases, such as asthma and chronic obstructive pulmonary disease (COPD). Additionally, ammonia emissions can contribute to air pollution and environmental degradation, affecting both human health and ecosystems.
 """)
