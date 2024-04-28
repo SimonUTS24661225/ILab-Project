@@ -26,6 +26,8 @@ def agricultural_ammonia_emissions():
     Improper handling and storage of animal manure can lead to ammonia emissions as the manure decomposes. Anaerobic conditions in manure storage facilities can promote the production of ammonia.
     """)
 
+    
+
     # Types of Ammonia Emissions
     st.header("Types of Ammonia Emissions")
     st.subheader("Direct Emissions:")
@@ -59,3 +61,5 @@ def agricultural_ammonia_emissions():
     st.write("""
     Explore technological solutions, such as ammonia scrubbers, biofilters, and anaerobic digesters, to capture and mitigate ammonia emissions from agricultural sources.
     """)
+
+agricultural_ammonia_emissions()
