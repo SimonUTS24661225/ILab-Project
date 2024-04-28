@@ -1,3 +1,5 @@
+import streamlit as st
+
 def health_impacts_of_ammonia_toxicity():
     # Set page title
     st.write("### Health Impacts of Ammonia Toxicity")
