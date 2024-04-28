@@ -34,7 +34,7 @@ st.pyplot(fig)
 
 
 st.write("""
-The chart presents the trend of death rates from 1990 to just before 2019 due to air pollution, focusing on three specific causes of death: cardiovascular diseases, chronic respiratory diseases, and neurological disorders.
+The chart presents the trend of death rates from 1990 to just before 2019 due to Methane Emission, focusing on three specific causes of death: cardiovascular diseases, chronic respiratory diseases, and neurological disorders.
 
 From the visualization, it is apparent that the death rate from cardiovascular diseases has shown a significant upward trend, indicating an increasing number of deaths over the years. This contrasts with chronic respiratory diseases and neurological disorders, both of which have remained relatively stable throughout the same period.
 
