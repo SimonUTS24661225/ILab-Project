@@ -2,6 +2,9 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import pandas as pd
 
+# Title
+st.write("### Mortality Rate Caused by Three Main Diseases of Methane Emission")
+
 # Load the data from the CSV file
 df = pd.read_csv('Streamlit/Methane/IHME-GBD_2019_DATA-571d49cc-1_combined.csv')
 
@@ -41,6 +44,7 @@ The visualization highlights the need for an increased focus on cardiovascular h
 """)
 
 
+st.write("### Methane Emission Dashboard")
 
 looker_url = "https://lookerstudio.google.com/embed/u/0/reporting/5a025395-e733-4370-8a0a-925c58a51539/page/JbRxD"
 st.components.v1.iframe(looker_url, height=600)
