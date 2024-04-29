@@ -9,6 +9,10 @@ def health_impacts_of_methane_emissions():
     st.write("""
     Indirectly, methane emissions contribute to air pollution, which can exacerbate respiratory conditions such as asthma, chronic obstructive pulmonary disease (COPD), and bronchitis.
     """)
+    image_url_res = "https://d2jx2rerrg6sh3.cloudfront.net/image-handler/ts/20220628103427/ri/750/src/images/Article_Images/ImageForArticle_22740_16564268624824428.jpg"
+    st.image(image_url_res, caption="Image Caption")
+
+    
 
     # Cardiovascular Diseases
     st.write("#### Cardiovascular Diseases:")
