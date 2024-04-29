@@ -20,6 +20,9 @@ def agricultural_ammonia_emissions():
     st.write("""
     Nitrogen-based fertilizers, including ammonium nitrate, urea, and ammonium sulfate, are commonly used in agriculture to supply essential nutrients to crops. When these fertilizers are applied to soil, ammonia can volatilize into the atmosphere.
     """)
+    image_url = "https://www.openaccessgovernment.org/wp-content/uploads/2018/07/dreamstime_s_114372506.jpg"
+    st.image(image_url, caption="Image Caption")
+    
     st.write("#### Manure Management:")
     st.write("""
     Improper handling and storage of animal manure can lead to ammonia emissions as the manure decomposes. Anaerobic conditions in manure storage facilities can promote the production of ammonia.
@@ -38,8 +41,7 @@ def agricultural_ammonia_emissions():
     Indirect ammonia emissions occur when ammonia reacts with other compounds in the environment to form secondary pollutants, such as fine particulate matter (PM2.5) and ammonium aerosols. These secondary pollutants can contribute to air pollution and have adverse effects on human health and the environment.
     """)
     
-    image_url = "https://www.openaccessgovernment.org/wp-content/uploads/2018/07/dreamstime_s_114372506.jpg"
-    st.image(image_url, caption="Image Caption")
+    
     
     # Preventive Measures
     st.write("### Preventive Measures to Reduce Ammonia Emissions")
