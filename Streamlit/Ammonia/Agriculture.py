@@ -37,7 +37,10 @@ def agricultural_ammonia_emissions():
     st.write("""
     Indirect ammonia emissions occur when ammonia reacts with other compounds in the environment to form secondary pollutants, such as fine particulate matter (PM2.5) and ammonium aerosols. These secondary pollutants can contribute to air pollution and have adverse effects on human health and the environment.
     """)
-
+    
+    image_url = "https://www.openaccessgovernment.org/wp-content/uploads/2018/07/dreamstime_s_114372506.jpg"
+    st.image(image_url, caption="Image Caption")
+    
     # Preventive Measures
     st.write("### Preventive Measures to Reduce Ammonia Emissions")
     st.write("#### Improved Manure Management:")
