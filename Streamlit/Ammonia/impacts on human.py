@@ -30,7 +30,6 @@ def health_impacts_of_ammonia_toxicity():
     st.image(image_url_rey, caption="Image Caption")
 
     
-
     # Decreased Blood Flow to Liver
     st.write("#### Decreased Blood Flow to Liver:")
     st.write("""
@@ -42,12 +41,17 @@ def health_impacts_of_ammonia_toxicity():
     st.write("""
     Elevated levels of ammonia in the blood can impair brain function, leading to symptoms such as confusion, disorientation, and impaired cognitive function. These symptoms are characteristic of hepatic encephalopathy, a condition associated with liver dysfunction and ammonia toxicity.
     """)
+    image_url_con = "https://www.pathofast.com/images/icons/confusion-4825436250X250.webp"
+    st.image(image_url_con, caption="Image Caption")
 
+    
     # Coma and Mood Swings
     st.write("#### Coma and Mood Swings:")
     st.write("""
     In severe cases of hepatic encephalopathy, where ammonia levels in the blood are significantly elevated, individuals may experience coma or loss of consciousness. Mood swings, personality changes, irritability, and agitation are also common manifestations of hepatic encephalopathy.
     """)
+    image_url_coma = "https://rd-prod.twic.pics/media/_system/images/pages/10134_1.jpg?twic=v1/resize=1280/quality=73/focus=auto"
+    st.image(image_url_coma, caption="Image Caption")
 
 health_impacts_of_ammonia_toxicity()
 
