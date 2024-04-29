@@ -14,7 +14,7 @@ image_url = "https://www.openaccessgovernment.org/wp-content/uploads/2018/07/dre
 st.write("#### Major Sources of Ammonia Emissions")
 st.write("""
 - Agricultural activities, including livestock farming and fertilizer application (70%)
-- st.image(image_url, caption="Image Caption")
+st.image(image_url, caption="Image Caption")
 - Natural Processing in Ocean (15%)
 - Wildfires (10%)
 - Industrial processes, such as chemical manufacturing and wastewater treatment (1-2%)
