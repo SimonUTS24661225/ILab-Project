@@ -9,6 +9,8 @@ def health_impacts_of_ammonia_toxicity():
     st.write("""
     Ammonia metabolism primarily occurs in the liver. In individuals with liver disease, such as cirrhosis or hepatitis, the liver may be less efficient at processing and detoxifying ammonia. Elevated levels of ammonia in the blood can exacerbate liver damage and contribute to the progression of liver disease.
     """)
+    image_url_liv = "https://www.metropolisindia.com/upgrade/blog/upload/23/12/Liver-Failure1703930383.webp"
+
 
     # Hepatic Encephalopathy
     st.write("#### Hepatic Encephalopathy:")
