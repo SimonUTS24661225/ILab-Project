@@ -8,12 +8,13 @@ st.write("""
 Ammonia is a colorless gas with a pungent odor and is commonly used in agricultural and industrial processes. Although not considered toxic in low concentrations, exposure to high levels of ammonia can have adverse effects on human health through various mechanisms.
 """)
 
+image_url = "https://www.openaccessgovernment.org/wp-content/uploads/2018/07/dreamstime_s_114372506.jpg"
+
 # Major Sources of Ammonia Emissions
 st.write("#### Major Sources of Ammonia Emissions")
 st.write("""
 - Agricultural activities, including livestock farming and fertilizer application (70%)
-image_url = "https://www.openaccessgovernment.org/wp-content/uploads/2018/07/dreamstime_s_114372506.jpg"
-st.image(image_url, caption="Image Caption")
+- st.image(image_url, caption="Image Caption")
 - Natural Processing in Ocean (15%)
 - Wildfires (10%)
 - Industrial processes, such as chemical manufacturing and wastewater treatment (1-2%)
