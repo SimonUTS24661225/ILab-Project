@@ -47,4 +47,7 @@ def health_impacts_of_methane_emissions():
     Climate change-related events, such as extreme weather events and environmental degradation, can lead to mental health issues such as anxiety, depression, post-traumatic stress disorder (PTSD), and other psychological disorders.
     """)
 
+    image_url_men = "https://images.thequint.com/thequint%2F2023-01%2F3b080752-7789-458b-a101-756f2a8ca860%2Fhero_image__1_.jpg?auto=format%2Ccompress&fmt=webp&width=720"
+    st.image(image_url_men, caption="Image Caption")
+
 health_impacts_of_methane_emissions()
