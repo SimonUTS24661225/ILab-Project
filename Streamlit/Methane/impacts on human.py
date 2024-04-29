@@ -20,6 +20,9 @@ def health_impacts_of_methane_emissions():
     Poor air quality resulting from methane emissions can increase the risk of cardiovascular diseases such as heart attacks and strokes.
     """)
 
+    image_url_car = "https://www.endocrine.org/-/media/endocrine/images/patient-engagement-webpage/condition-page-images/cardiovascular-disease/cardio_disease_t2d_pe_1796x943.jpg?w=1290&hash=F78C844A6E1954DE6180CD04CEB9318D"
+    st.image(image_url_car, caption="Image Caption")
+
     # Heat-Related Illnesses
     st.write("#### Heat-Related Illnesses:")
     st.write("""
