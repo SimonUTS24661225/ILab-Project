@@ -44,13 +44,13 @@ with open(file_path_2, "rb") as f2:
         st.markdown(href2, unsafe_allow_html=True)
 
 # Third file
-file_path_2 = "Streamlit/air_pollution.csv"
+file_path_3 = "Streamlit/air_pollution.csv"
 with open(file_path_3, "rb") as f3:
     data3 = f3.read()
     st.markdown(
         """
         <style>
-        .stButton2>button {
+        .stButton3>button {
             background-color: #ffcc00 !important;
             color: #333 !important;
         }
