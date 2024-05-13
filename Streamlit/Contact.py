@@ -14,3 +14,6 @@ references = {
     "Impact of Air Pollution on Human Health": "https://www.kaggle.com/code/abmsayem/impact-of-air-pollution-on-human-health/input?select=absolute-number-of-deaths-from-ambient-particulate-air-pollution.csv",
     "Indoor and Outdoor Air pollution datasets": "https://ourworldindata.org/air-pollution"
 }
+
+for title, link in references.items():
+    st.markdown(f"[{title}]({link})")
