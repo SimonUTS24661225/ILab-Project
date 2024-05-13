@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 st.title("References")
 
 references = {
@@ -16,4 +17,4 @@ references = {
 }
 
 for title, link in references.items():
-    st.markdown(f"[{title}]({link})")
+    st.markdown(f"{title}. [{link}]({link})")
