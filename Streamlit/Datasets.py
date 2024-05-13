@@ -60,5 +60,5 @@ with open(file_path_3, "rb") as f3:
     )
     if st.button("Download Air Pollution(Methane, Ammonia and other substances etc.) Dataset", key="airpollution_button"):
         b64_data3 = base64.b64encode(data3).decode()
-        href3 = f'<a href="data:application/octet-stream;base64,{b64_data2}" download="air_pollution.csv">Download Air Pollution Dataset</a>'
+        href3 = f'<a href="data:application/octet-stream;base64,{b64_data3}" download="air_pollution.csv">Download Air Pollution Dataset</a>'
         st.markdown(href3, unsafe_allow_html=True)
