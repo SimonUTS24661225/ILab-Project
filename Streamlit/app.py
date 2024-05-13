@@ -45,8 +45,8 @@ show_pages(
         Page("Streamlit/FAQ.py", "FAQ", "❔", in_section=False),
         # Contact
         Page("Streamlit/Contact.py", "Contact", icon="📩", in_section=False),   
-        # About  
-        Page("Streamlit/About.py", "About", icon="🖼️", in_section=False) 
+        # Reference  
+        Page("Streamlit/Reference.py", "Reference", icon="🖼️", in_section=False) 
     ]
 )
 
