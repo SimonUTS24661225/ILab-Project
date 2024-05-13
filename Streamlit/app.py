@@ -41,8 +41,6 @@ show_pages(
 
         # Dataset
         Page("Streamlit/Datasets.py", "Datasets", icon="💾", in_section=False),
-        # Reference
-        Page("Streamlit/Reference.py", "Reference", "📜", in_section=False),
         # FAQ
         Page("Streamlit/FAQ.py", "FAQ", "❔", in_section=False),
         # Contact
