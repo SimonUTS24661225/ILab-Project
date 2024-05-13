@@ -42,3 +42,23 @@ with open(file_path_2, "rb") as f2:
         b64_data2 = base64.b64encode(data2).decode()
         href2 = f'<a href="data:application/octet-stream;base64,{b64_data2}" download="Mortality rate.xlsx">Download Mortality Rate Dataset</a>'
         st.markdown(href2, unsafe_allow_html=True)
+
+# Third file
+file_path_2 = "Streamlit/air_pollution.csv"
+with open(file_path_3, "rb") as f3:
+    data3 = f3.read()
+    st.markdown(
+        """
+        <style>
+        .stButton2>button {
+            background-color: #ffcc00 !important;
+            color: #333 !important;
+        }
+        </style>
+        """
+        , unsafe_allow_html=True
+    )
+    if st.button("Download Air Pollution(Methane, Ammonia and other substances etc.) Dataset", key="airpollution_button"):
+        b64_data3 = base64.b64encode(data3).decode()
+        href3 = f'<a href="data:application/octet-stream;base64,{b64_data2}" download="air_pollution.csv">Download Air Pollution Dataset</a>'
+        st.markdown(href3, unsafe_allow_html=True)
