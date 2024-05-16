@@ -1,20 +1,20 @@
 import streamlit as st
 
 
-st.title("References")
 
-references = {
-    "Methane Gas: Emission Analysis": "https://www.kaggle.com/code/zsinghrahulk/methane-gas-emission-analysis/input?select=FAOSTAT_data_en_11-14-2023.csv",
-    "Air Pollution - Our World in Data": "https://ourworldindata.org/air-pollution",
-    "Global Health Data Exchange (GHDx)": "https://vizhub.healthdata.org/gbdresults/",
-    "Main sources of methane emissions": "https://whatsyourimpact.org/greenhouse-gases/methane-emissions",
-    "Reducing the Carbon Footprint of Cattle Operations through Diet": "https://water.unl.edu/article/manure-nutrient-management/reducing-carbon-footprint-cattle-operations-through-diet",
-    "Importance of Methane - US EPA": "https://www.epa.gov/gmi/importancemethane#:~:text=Methane%20is%20the%20second%20most",
-    "Methane’s links to respiratory diseases strengthens the case for its rapid reduction": "https://www.ccacoalition.org/news/methanes-links-respiratory-diseases-strengthens-case-its-rapid-reduction",
-    "Diseases dataset caused by the Pollutants": "https://vizhub.healthdata.org/gbdresults/?params=gbd-api-2019-public/571d49cc2be3c07e33b856d5997bc32a",
-    "Impact of Air Pollution on Human Health": "https://www.kaggle.com/code/abmsayem/impact-of-air-pollution-on-human-health/input?select=absolute-number-of-deaths-from-ambient-particulate-air-pollution.csv",
-    "Indoor and Outdoor Air pollution datasets": "https://ourworldindata.org/air-pollution"
-}
+st.title("Student Details")
 
-for title, link in references.items():
-    st.markdown(f"{title}. [{link}]({link})")
+students = [
+    {"name": "Asmita Sheshrao Kamble", "degree": "B.E. E&TC, MS Data Science & Innovation", "experience": "Process analyst (3yrs)", "email": "Asmita.S.Kamble@student.uts.edu.au"},
+    {"name": "Simon Lim", "degree": "B.E. Psychology, MS Data Science & Innovation", "experience": "System Analyst (6 months)", "email": "Seeyon.lim@student.uts.edu.au"},
+    {"name": "Tarun Gupta", "degree": "MS in Data Science", "experience": "7 years in software development", "email": "Tarun.gupta-1@student.uts.edu.au"},
+    {"name": "Somayeh Amraee", "degree": "MS in Data Science", "experience": "", "email": "Somayeh.amraee@student.uts.edu.au"},
+    {"name": "Hareesh Balasundaram", "degree": "MS in Data Science", "experience": "", "email": "Hareesh.balasundaram@student.uts.edu.au"}
+]
+
+for student in students:
+    st.markdown(f"**Name:** {student['name']}")
+    st.markdown(f"**Degree:** {student['degree']}")
+    st.markdown(f"**Experience:** {student['experience']}")
+    st.markdown(f"**Email:** {student['email']}")
+    st.markdown("---")
