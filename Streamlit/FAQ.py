@@ -4,7 +4,7 @@ st.title("Frequently Asked Questions about Air Pollution and Human Health")
 
 faqs = [
     {
-        "1️⃣" "question": "How can data visualization techniques help in understanding the impact of air pollution on human health?",
+        "question": "How can data visualization techniques help in understanding the impact of air pollution on human health?",
         "answer": "Data visualization can effectively illustrate trends and correlations between air pollutant levels and health outcomes over time and across different regions. It enables the identification of pollution hotspots and vulnerable populations, aiding policymakers in targeting interventions. Interactive visualizations allow stakeholders to explore complex datasets, fostering public awareness and engagement."
     },
     {
