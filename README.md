@@ -15,4 +15,6 @@ Name: Simon, Asmita
 
 ## GoogleLooker Dashboard
 GoogleLooker Link = "https://lookerstudio.google.com/embed/u/0/reporting/5a025395-e733-4370-8a0a-925c58a51539/page/JbRxD"
+![Screenshot (317)](https://github.com/SimonUTS24661225/ILab-Project/assets/116344920/dc5a6825-a10c-4ba2-b9ec-4c0a5d6ee0b6)
+![Screenshot (318)](https://github.com/SimonUTS24661225/ILab-Project/assets/116344920/7ca76db9-3076-4621-8bc1-582cb6881374)
 
