@@ -14,5 +14,5 @@ Name: Simon, Asmita
 - Python
 
 ## GoogleLooker Dashboard
-looker_url = "https://lookerstudio.google.com/embed/u/0/reporting/5a025395-e733-4370-8a0a-925c58a51539/page/JbRxD"
-st.components.v1.iframe(looker_url, height=600)
+GoogleLooker Link = "https://lookerstudio.google.com/embed/u/0/reporting/5a025395-e733-4370-8a0a-925c58a51539/page/JbRxD"
+
